@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+}
+
+.card {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.line1 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.btn-green {
+    background-color: rgb(94, 162, 235) !important;
+    border-color: rgb(75, 154, 238) !important;
+    color: #fff; /* 文字颜色设为白色 */
+    padding: 10px 20px; /* 根据需要调整按钮的内边距 */
+    text-decoration: none; /* 取消下划线 */
+    display: inline-block; /* 将按钮设置为行内块级元素，使得可以设置宽高和内外边距 */
+    border-radius: 4px; /* 圆角 */
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease; /* 添加过渡效果 */
+}
+
+.btn-green:hover {
+    background-color: rgb(29, 125, 228) !important;
+    border-color: rgb(75, 154, 238) !important; /* 悬停时的边框颜色 */
+    color: #fff; /* 悬停时的文字颜色，可以根据需要调整 */
+}
+
+.btn-green:active {
+    background-color: rgb(19, 101, 189) !important; /* 悬停时的背景色 */
+    border-color: rgb(75, 154, 238) !important; /* 悬停时的边框颜色 */
+    color: #fff; /* 悬停时的文字颜色，可以根据需要调整 */
+}
+
+.btn-purple {
+    background-color: rgb(109, 109, 215) !important;
+    border-color: rgb(130, 130, 255) !important;
+}
+
+.btn-purple:hover {
+    background-color: rgb(130, 130, 255) !important;
+    border-color: rgb(130, 130, 255) !important;
+}
+
+.btn-purple:active {
+    background-color: rgb(92, 92, 177) !important;
+    border-color: rgb(130, 130, 255) !important;
+}
